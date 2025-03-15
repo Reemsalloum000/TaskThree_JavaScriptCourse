@@ -1,0 +1,50 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #5498c2;
+}
+
+/* Styling the container div */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Image styling */
+.image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* New class added via JavaScript */
+.modified {
+    background-color: #84898f;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modified p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: #000000;
+    shape-margin: inherit;
+    background-color: #fff;
+}
+:hover button {
+    shape-margin: inherit;
+}
